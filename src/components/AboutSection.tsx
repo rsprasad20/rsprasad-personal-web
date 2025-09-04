@@ -36,9 +36,18 @@ const AboutSection = () => {
         <div className="grid lg:grid-cols-2 gap-16 items-center mb-16">
           <div className="animate-slide-in-left">
             <Card className="glass-effect p-8 border-gradient hover-lift">
-              <h3 className="text-2xl font-display font-bold text-gradient-secondary mb-6">
-                Professional Summary
-              </h3>
+              <div className="flex items-center gap-6 mb-6">
+                <div className="w-24 h-24 rounded-xl overflow-hidden border-2 border-primary/30 flex-shrink-0">
+                  <img 
+                    src="/lovable-uploads/67e3a33e-13d9-4eb9-84c3-a14b373b2387.png" 
+                    alt="RS Prasad"
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+                <h3 className="text-2xl font-display font-bold text-gradient-secondary">
+                  Professional Summary
+                </h3>
+              </div>
               <p className="text-muted-foreground leading-relaxed mb-6">
                 RS Prasad is a seasoned business leader with over 30 years of experience across financial services and FMCG. 
                 He brings deep expertise in insurance, with a focus on wealth protection, legacy planning, and cross-border 

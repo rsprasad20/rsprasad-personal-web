@@ -18,8 +18,23 @@ const HeroSection = () => {
       
       <div className="container mx-auto px-6 text-center relative z-10">
         <div className="animate-fade-in">
+          {/* Profile Image */}
+          <div className="mb-8">
+            <div className="relative inline-block">
+              <div className="w-48 h-48 mx-auto rounded-full overflow-hidden border-4 border-gradient glow-primary hover:shadow-glow-primary transition-all duration-500 hover-lift">
+                <img 
+                  src="/lovable-uploads/67e3a33e-13d9-4eb9-84c3-a14b373b2387.png" 
+                  alt="RS Prasad - CEO & Global Head, Atom Risk Advisory"
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              <div className="absolute -top-2 -right-2 w-12 h-12 bg-gradient-primary rounded-full flex items-center justify-center animate-glow-pulse">
+                <Sparkles className="w-6 h-6 text-primary-foreground" />
+              </div>
+            </div>
+          </div>
+
           <div className="flex items-center justify-center mb-6">
-            <Sparkles className="w-8 h-8 text-primary mr-3 animate-glow-pulse" />
             <span className="text-primary font-medium tracking-wider uppercase text-sm">
               AI • Risk Advisory • Leadership
             </span>
